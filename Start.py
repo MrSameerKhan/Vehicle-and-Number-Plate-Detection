@@ -8,8 +8,6 @@ import cv2
 import pymongo
 
 
-
-
 def mongo_connection():
     con = pymongo.MongoClient(host)
     col = con[database][collection]
